@@ -6,6 +6,7 @@ body {
     --menufarbe: #b5b5b5;
     --schriftfarbe: #555;
     color: var(--schriftfarbe);
+    min-height: 920px;
 }
 
 header {
@@ -364,26 +365,32 @@ li a:hover {
 
     #overlayjobs {
         top: -5000px;
+        left: -200px;
     }
 
     #overlayteam1 {
         top: -5000px;
+        left: -200px;
     }
 
     #overlayteam2 {
         top: -5000px;
+        left: -200px;
     }
 
     #overlayteam3 {
         top: -5000px;
+        left: -200px;
     }
 
     #overlayteam4 {
         top: -5000px;
+        left: -200px;
     }
 
     #overlaykontakt {
         top: -5000px;
+        left: -200px;
     }
 
     .teammember {
