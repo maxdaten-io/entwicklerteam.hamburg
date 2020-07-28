@@ -1,0 +1,409 @@
+body {
+    background: linear-gradient(90deg, #dad9d9, #ffffff, #dad9d9);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    --schmuckfarbe: #9c6585;
+    --menufarbe: #b5b5b5;
+    --schriftfarbe: #555;
+    color: var(--schriftfarbe);
+}
+
+header {
+    background: var(--menufarbe);
+    position: fixed;
+    height: 54px;
+    top: 0;
+    Left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+footer {
+    background: var(--menufarbe);
+    position: fixed;
+    height: 54px;
+    bottom: 0;
+    Left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+h1 {
+    color: var(--schmuckfarbe);
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h3 {
+    color: var(--schmuckfarbe);
+}
+
+.maintext {
+    position: relative;
+    top: 54px;
+    min-width: 420px;
+    max-width: 1024px;
+    margin: auto;
+    padding: 0;
+}
+
+.emptyrows {
+    height: 54px;
+}
+
+.mainmenu {
+    text-transform: uppercase;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 0;
+    color: #ffffff;
+}
+
+.menulist {
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    color: var(--schmuckfarbe);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+}
+
+li a:hover {
+    background: var(--schmuckfarbe);
+}
+
+.bulletpointlist {
+    float: right;
+    padding: 0.5em;
+    background: #ddd;
+}
+
+.bulletpointlist li {
+    margin-bottom: 1em;
+    list-style: none;
+}
+
+.bulletpointlist li::before {
+    content: "+";
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--schmuckfarbe);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.bulletpoint {
+    display: inline;
+    color: var(--schmuckfarbe);
+    padding: 0;
+    text-decoration: underline;
+}
+
+.bulletpoint:hover {
+    background-color: transparent;
+}
+
+.dropbtn {
+    background-color: var(--schmuckfarbe);
+    color: white;
+    height: 54px;
+    width: 54px;
+    position: fixed;
+    top: -200px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    text-transform: uppercase;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--schmuckfarbe);
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mainimage {
+    width: 100%;
+    position: absolute;
+    top: -16px;
+    z-index: -1;
+}
+
+#willkommentext {
+    position: absolute;
+    left: 50px;
+    top: 360px;
+}
+
+#wirsindtext {
+    position: absolute;
+    left: 50px;
+    width: 320px;
+    top: 460px;
+}
+
+#copyrighttext {
+    position: relative;
+    left: 40px;
+    color: lightgrey;
+    font-size: 16px;
+}
+
+.overlaytext {
+    text-align: center;
+    font-size: 40px;
+    color: transparent;
+    background-color: transparent;
+}
+
+.overlaytext:hover {
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.overlaylink {
+    color: transparent;
+    display: block;
+    height: 100%;
+}
+
+#overlayjobs {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 85px;
+    left: 340px;
+}
+
+#overlayteam1 {
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: 130px;
+    left: 670px;
+}
+
+#overlayteam2 {
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: 620px;
+    left: 365px;
+}
+
+#overlayteam3 {
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: 635px;
+    left: 650px;
+}
+
+#overlayteam4 {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    top: 305px;
+    left: 420px;
+}
+
+#overlaykontakt {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 570px;
+    left: 820px;
+}
+
+.teammember {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 54px;
+    width: 1024px;
+    margin: auto;
+    padding: 0px;
+}
+
+.imgselector {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+
+.teamimg {
+    border-color: var(--schmuckfarbe);
+    width: 300px;
+    height: 400px;
+    border-width: 20px;
+    border-style: solid;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.smlteamimg {
+    width: 90px;
+    height: 120px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--schmuckfarbe);
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.smlteamimg:hover {
+    border-width: 10px;
+    margin-top: 0px;
+}
+
+.selectedimg {
+    width: 90px;
+    height: 120px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--schmuckfarbe);
+    margin-left: 15px;
+}
+
+.teamtext {
+    max-width: 600px;
+    min-width: 300px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.teamzitat {
+    font-family: "Caveat", cursive;
+    font-size: 32px;
+}
+
+#kontaktseite {
+    text-align: center;
+}
+
+@media (max-width: 1023px) {
+    .mainimage {
+        position: relative;
+        top: 0px;
+        z-index: -1;
+    }
+
+    #willkommentext {
+        position: absolute;
+        left: 10%;
+        top: -500px;
+    }
+
+    #wirsindtext {
+        position: relative;
+        left: 10%;
+        width: 80%;
+        top: 1em;
+    }
+
+    .dropbtn {
+        top: 0px;
+    }
+
+    .mainmenu {
+        top: -5000px;
+    }
+
+    #overlayjobs {
+        top: -5000px;
+    }
+
+    #overlayteam1 {
+        top: -5000px;
+    }
+
+    #overlayteam2 {
+        top: -5000px;
+    }
+
+    #overlayteam3 {
+        top: -5000px;
+    }
+
+    #overlayteam4 {
+        top: -5000px;
+    }
+
+    #overlaykontakt {
+        top: -5000px;
+    }
+
+    .teammember {
+        width: 440px;
+    }
+
+    .teamimg {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .teamtext {
+        margin: auto;
+    }
+
+    .imgselector {
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
