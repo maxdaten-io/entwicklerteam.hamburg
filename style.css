@@ -336,6 +336,10 @@ li a:hover {
 }
 
 @media (max-width: 1023px) {
+    body {
+        font-size: 24px;
+    }
+
     .mainimage {
         position: relative;
         top: 0px;
