@@ -344,6 +344,10 @@ li a:hover {
         height: 100px;
     }
     
+    .maintext {
+        top: 100px;
+    }
+    
     .mainimage {
         position: relative;
         top: 0px;
