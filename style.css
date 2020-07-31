@@ -346,6 +346,8 @@ li a:hover {
     
     .maintext {
         top: 100px;
+        width: 90%;
+        margin-bottom: 200px;
     }
     
     .mainimage {
