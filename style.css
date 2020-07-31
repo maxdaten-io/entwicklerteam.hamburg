@@ -411,7 +411,7 @@ li a:hover {
     .teammember {
         min-width: 440px;
         max-width: 90%;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
     }
 
     .teamimg {
@@ -421,6 +421,7 @@ li a:hover {
 
     .teamtext {
         margin: auto;
+        max-width: 100%;
     }
     
     .teamzitat {
