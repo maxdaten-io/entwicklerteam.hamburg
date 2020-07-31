@@ -409,7 +409,8 @@ li a:hover {
     }
 
     .teammember {
-        width: 440px;
+        min-width: 440px;
+        max-width: 90%;
     }
 
     .teamimg {
