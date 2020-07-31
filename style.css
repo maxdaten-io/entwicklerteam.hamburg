@@ -339,7 +339,11 @@ li a:hover {
     body {
         font-size: 24px;
     }
-
+    
+    header {
+        height: 100px;
+    }
+    
     .mainimage {
         position: relative;
         top: 0px;
@@ -361,6 +365,9 @@ li a:hover {
 
     .dropbtn {
         top: 0px;
+        height: 100px;
+        widht: 100px;
+        font-size: 32px;
     }
 
     .mainmenu {
